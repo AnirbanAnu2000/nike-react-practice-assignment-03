@@ -1,0 +1,186 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+/* google fonts link & font-family name */
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@400;500;700;900&display=swap');
+
+/* font-family: 'Bebas Neue', cursive;
+font-family: 'Roboto', sans-serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Noto+Sans+JP:wght@400;500;700;900&family=Oswald:wght@400;500;600;700&display=swap');
+
+/* font-family: 'Bebas Neue', cursive;
+font-family: 'Noto Sans JP', sans-serif;
+font-family: 'Oswald', sans-serif; */
+
+
+/* common css end */
+
+
+/* header part start */
+
+
+/* header navbar part start */
+
+#top-menu {
+    margin-top: 25px;
+    /* background-color: #f1ec9c; */
+}
+
+#top-menu .navbar-nav .nav-item {
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+#top-menu .navbar-nav .nav-item:last-child {
+    margin-right: 0;
+}
+
+#top-menu .navbar-nav .nav-item .nav-link {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #3C3C3C;
+    border-radius: 5px;
+    transition: all linear 0.3s;
+}
+
+#top-menu .navbar-nav .nav-item .nav-link:hover {
+    color: #ffffff;
+    background-color: #363958;
+}
+
+
+/* header navbar part end */
+
+
+/* header banner part start */
+
+#banner {
+    padding-top: 100px;
+}
+
+#banner .banner-content-left {
+    /* padding-left: 50px; */
+    padding-right: 50px;
+}
+
+#banner h1 {
+    font-size: 60px;
+    /* line-height: 80px; */
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    color: #FA804C;
+    text-transform: uppercase;
+}
+
+#banner h1 span {
+    color: #363958;
+}
+
+#banner p {
+    margin-bottom: 30px;
+}
+
+#banner .banner-content-right {
+    padding: 100px 40px 200px 80px;
+}
+
+.btn-bg {
+    background-color: #3948d5;
+    color: #fff;
+    font-weight: 500;
+    text-transform: uppercase;
+    border: 2px solid transparent;
+    padding: 10px 25px;
+}
+
+.btn-bg:hover {
+    border: 2px solid #3948d5;
+    background-color: transparent;
+    color: #363958;
+}
+
+
+/* header banner part end */
+
+
+/* header part end */
+
+
+/* casual shoes start */
+
+#casual-shoes {
+    margin-top: 60px;
+}
+
+#casual-shoes .casual-shoes-title {
+    font-size: 48px;
+    font-weight: 700;
+    color: #363958;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 65px;
+    text-transform: uppercase;
+}
+
+#casual-shoes .card img {
+    width: 300px;
+    height: 300px;
+}
+
+#casual-shoes .card .shoe-price {
+    font-size: 30px;
+    color: #FA804C;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+
+
+/* casual shoes end */
+
+
+/* formal shoes start */
+
+#formal-shoes {
+    margin-top: 95px;
+}
+
+#formal-shoes .formal-shoes-title {
+    font-size: 48px;
+    font-weight: 700;
+    color: #363958;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 65px;
+    text-transform: uppercase;
+}
+
+#formal-shoes .card img {
+    width: 300px;
+    height: 300px;
+}
+
+#formal-shoes .card .shoe-price {
+    font-size: 30px;
+    color: #FA804C;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+
+
+/* formal shoes end */
+
+
+/* our offers start */
+
+#our-offers {
+    padding-top: 130px;
+    padding-bottom: 200px;
+}
+
+
+/* our offers end */
